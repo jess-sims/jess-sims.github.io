@@ -1,0 +1,121 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Technical Writer
+# your company information
+#company:
+#  name: Example Co.
+#  url: "https://www.example.com"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am a passionate writer, designer and photographer with over 6 years experience. I have recently relocated from Ireland to Switzerland and I am actively seeking my next project while undergoing trainings and certifications to better develop my writing, design and technical skills'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+#- name: Email
+#  icon: "fas fa-envelope"
+#  url: "example@gmail.com"
+
+#- name: Stackoverflow
+#  icon: "fab fa-stack-overflow"
+#  url: "#"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/jess-sims/"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/jesssims"
+
+#- name: Twitter
+#  icon: "fab fa-twitter"
+#  url: "#"
+
+#- name: Facebook
+#  icon: "fab fa-facebook"
+#  url: "#"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+#resourceLinks:
+#- title: "My Resume"
+#  url: "files/resume.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+#- type: certification
+#  name: Certified Kubernetes Security Specialist
+#  url: "https://www.credly.com/badges/e834050d-f8a4-4bcc-b60d-9d8f95a536ad/public_url"
+#  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+
+- type: certification
+  name: KCNA - Kubernetes and Cloud Native Associate
+  url: "https://www.credly.com/badges/b6354926-7f2a-4869-be6f-15ef7b4f1caf/public_url"
+  badge: "https://images.credly.com/size/680x680/images/f28f1d88-428a-47f6-95b5-7da1dd6c1000/KCNA_badge.png"
+
+- type: certification
+  name: LFCS - Linux Foundation Certified Systems Administrator
+  url: "https://www.credly.com/badges/bde4ae58-5ea5-4e3e-b232-645eba705f83/public_url"
+  badge: "https://images.credly.com/size/680x680/images/1e6611ca-8afe-4ecc-ad4d-305fba52ee7e/1_LFCS-600x600.png"
+
+- type: certification
+  name: LFCA - Linux Foundation Certified IT Associate
+  url: "https://www.credly.com/badges/f9ddf5e6-b2aa-44d1-bbd3-f82270bd253c/public_url"
+  badge: "https://images.credly.com/size/680x680/images/a2c14e0a-56cb-4990-809a-23b0850c1f96/Training_Badges_LFCA_for_acclaim.png"
+
+- type: certification
+  name: VMware Specialist - vSAN
+  url: "https://www.credly.com/badges/e834050d-f8a4-4bcc-b60d-9d8f95a536ad/public_url"
+  badge: "https://images.credly.com/size/680x680/images/1319277e-2eac-47be-abaa-655c99686905/vmware_Specialist_vSan2019.png"
+
+- type: certification
+  name: VMware Certified Professional – Data Center Virtualization
+  url: "https://www.credly.com/badges/98e28e48-f9dc-40ae-bf82-e5c0677b7446/public_url"
+  badge: "https://images.credly.com/size/680x680/images/a5221adc-6edc-4145-a27c-8ec03466d8db/vmware_cert_VCPDCV2019.png"
+
+#- type: certification
+#  name: VMware vSphere 6.5 Foundations
+#  url: "https://www.credly.com/badges/b6f20d3d-a0c3-45cd-bc9c-af4de9bbae3e/public_url"
+#  badge: "https://images.credly.com/size/680x680/images/081d54b5-d010-4062-a323-b17758606f2a/vmware_knowledge_vsphere6.png"
+
+- type: certification
+  name: VMware Certified Associate – Digital Business Transformation
+  url: "https://www.credly.com/badges/33ac7e1b-fe46-40e7-ac50-fefa80f60765/public_url"
+  badge: "https://images.credly.com/size/680x680/images/8123b386-3427-4cf7-a3da-81ad8c214c02/vmware_Cert_Asso_DBT.png"
+
+- type: soft-skill-indicator
+  name: Writing
+  percentage: 85
+  color: green
+
+- type: soft-skill-indicator
+  name: Detail Oriented
+  percentage: 95
+  color: yellow
+
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 85
+  color: blue
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

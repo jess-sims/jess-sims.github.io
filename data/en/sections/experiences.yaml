@@ -1,0 +1,74 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: VMware
+    url: "https://www.vmware.com/"
+    location: Cork, Ireland
+    # company overview
+    # overview: VMware is an American cloud computing and virtualization technology company. 
+  positions:
+  - designation: Technical Support Engineer II
+    start: Sept 2018
+    end: Aug 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+      - Responsible for scoping, diagnosing, reproducing and resolving technical queries in a timely manner
+      - Worked collaboratively with escalation engineers and colleagues across various teams such as Escalation Management, Field Sales and Support to ensure the optimum technical solution 
+      - Troubleshot and engaged with the dedicated vSAN product engineering on customer issues including identifying viable workarounds 
+      - Ensured appropriate prioritization and escalation for impactful customer issues to determine the best outcome for the customer
+      - Mentored and provided training to other team members on enterprise storage topics
+      - Wrote technical solutions and documents for reuse throughout the organization and customer base
+
+- company:
+    name: J Sims Media
+  #  url: "https://www.example.com"
+    location: Manitoba, Canada
+  #  overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+  positions:
+  - designation: Owner
+    start: Jan 2018
+    end: Aug 2018
+    responsibilities:
+    - Assisted small business owners to increase revenue by designing and developing mobile responsive websites using WordPress and other CMS platforms to implement countless applications at affordable rates
+    - Advised clients on hosting, SEO, design, development, branding, maintenance, marketing and more
+
+- company:
+    name: International Service Roles 
+  #  url: "https://www.example.com"
+    location: Canada, Scotland and Ireland
+  #  overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+  positions:
+  - designation: Server
+    start: May 2010
+    end: Aug 2018
+    responsibilities:
+    - Funded studies 
+    - Trained numberous new staff members 
+    - Keyholder, including counting and lodging of cash 
+    - Increased profits by managing accounts between film producers 
+
+- company:
+    name: White & Associates 
+  #  url: "https://www.example.com"
+    location: Leitrim, Ireland
+  #  overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+  positions:
+  - designation: Administrative Assistant 
+    start: Apr 2014
+    end: Sep 2015
+    responsibilities:
+    - Produced and amended correspondence to clients via dictation
+    - Developed a more proficient way of file management
+
