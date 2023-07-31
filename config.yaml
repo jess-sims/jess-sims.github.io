@@ -1,5 +1,5 @@
 # should below be jesssims.github? 
-baseURL: https://jsims.github.io
+baseURL: https://jess-sims.github.io
 
 languageCode: en-us
 title: "J Sims"
@@ -52,9 +52,9 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/jesssims/jsims.github.io
+  # gitRepo: https://github.com/jess-sims/jess-sims.github.io
   # Default branch of your Git repo
-  gitBranch: main
+  # gitBranch: main
 
   # Configure the number of section title visible in the top navbar
   topNavbar:

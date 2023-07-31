@@ -6,7 +6,7 @@ menu:
   sidebar:
     name: Kubernetes Sample
     identifier: kubernetes
-    weight: 80
+    weight: 70
 ---
 
 This is a sample post intended to testy test

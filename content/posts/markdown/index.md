@@ -1,19 +1,19 @@
 ---
-title: "Useful Markdown Syntax"
-date: 2020-06-08T08:06:25+06:00
-description: Useful Markdown Syntax
+title: "Using Markdown"
+date: 2023-05-05T10:56:25+06:00
+description: Using Markdown
 menu:
   sidebar:
-    name: Useful Markdown Syntax
-    identifier: useful markdown syntax
+    name: Using Markdown
+    identifier: using markdown
     weight: 80
-    hero: background-2.jpg
-math: true
+# hero: background-2.jpg
+# math: true
 ---
 
-Markdown is a lightweight markup language used to make webpages easier on the eye and simpler to read. Markdown is built into many applications such as documentation systems, note-taking applications and content management systems. 
+Markdown is a lightweight markup language used to make webpages easier on on the eye when displayed and simplier to read in plain text format. Markdown is widely popular due to its ease of use and that it is accepted by many applications such as documentation systems, note-taking applications, messaging systems and content management systems. 
 
-The below examples showcase some of the basic Markdown syntax elements, however, there are more features and extensions available depending on the Markdown implementation or specific application you're using. Markdown's popularity comes from its simplicity and ease of use, making it a preferred choice for creating content that can be easily shared and displayed on the web. For further information on markdown and a more robust syntax list please review https://www.markdownguide.org/
+The below examples showcase some of the basic Markdown syntax elements, however, there are more features and Markdown flavours available depending on the Markdown implementation or specific application you're using. For further information on markdown and a more robust syntax list please review https://www.markdownguide.org/
 
 # Markdown Syntax Rendering
 
@@ -30,15 +30,15 @@ Headings and subheadings may be used to provide an outline of how the page in st
 ###### H6
 ```  
 
-All headings in this article are between H1 and H3 size and the topics these are used for may be observed in the Table of Contents on the right hand side.
+All headings in this article are between H1 and H4 size and the topics these are used for may be observed in the Table of Contents on the right hand side of this page.
 
 ## Emphasis
 
-Emphasis is important to assist readers to garner important points in text. Basic Markdown allows for the use of italic, bold, italic and bold, or strikethrough.
+Emphasis is an important asset to assist readers pinpoint important points in text. Basic Markdown allows for the use of italic, bold, italic and bold, or strikethrough.
 
 ### Italic 
 
-Italics are usually used for titles and names in writing such as books, movies, vehicles or if the word may be in an alternate language or a new word or concept. For use of *italics* in markdown:
+Italics are usually used for titles and names in writing such as books, movies, vessels, if the word is in an alternate language or if it is a new word or concept. For use of *italics* in markdown:
 
 ```
 *Italic text*
@@ -46,13 +46,13 @@ Italics are usually used for titles and names in writing such as books, movies, 
 
 ### Bold 
 
-For strong emphasis on keywords you may use **bold** on your words:
+To strongly emphasize keywords use **bold**:
+
 ```
 **Bold text**
 ```
-<br/>
 
-On occasion you may require the use of both ***italic and bold***:
+To use both ***italic and bold***, begin and end the words with three asterisks:
 
 ```
 ***Italic and bold***
@@ -69,7 +69,7 @@ The use of strikethrough can be a fun way to emphasize a change of idea or opini
 
 ## Paragraph
 
-Markdown renders paragraphs and line breaks as you would normally write them, there is no need for any special characters. However, traditional html paragraph code and line breaks may be used if required, however, not all applications will render these the same way. 
+Markdown renders paragraphs and line breaks as you would normally write them, there is no need for any special characters. However, traditional html paragraph code and line breaks may be used if required, however, caution should be taken with use of these as not all applications will render this code same way. 
 
 ## Blockquotes
 
@@ -125,11 +125,11 @@ Here's a small footnote,[^1] and here's a lengthier one containing a full paragr
     See bottom of the page for the full output of footnotes
 ```
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+[^1]: The above quote is a small footnote
 
 ## Tables
 
-Markdown doesn't support tables as part of its core capability, however, many applications support them.
+Markdown does not support tables as part of its core capabilities, however, many applications support them.
 
    | Name  | Age |
    | ----- | --- |
@@ -147,7 +147,7 @@ Markdown doesn't support tables as part of its core capability, however, many ap
 
 ## List Types
 
-Lists provide the reader with a neat and ordered overview or set of instructions. Markdown supports multiple ways to create lists.
+Lists provide the reader with a neat and ordered overview or set of instructions and Markdown supports multiple ways to create lists.
 
 #### Ordered List
 
@@ -195,7 +195,7 @@ Lists provide the reader with a neat and ordered overview or set of instructions
   * Hake
 ```
 
-### Task Lists
+#### Task Lists
 
 - [x] Sunblock
 - [ ] Towel
@@ -205,6 +205,26 @@ Lists provide the reader with a neat and ordered overview or set of instructions
 - [x] Sunblock
 - [ ] Towel
 - [ ] Beachwear
+```
+
+#### Image inside of a list
+
+To place an image inside of the list: 
+
+1. To open the command prompt on windows press "Windows + R". 
+2. In the run program window type "cmd" and press "Enter" to launch the command prompt
+
+    ![Windows Command Line](cmd.png)
+
+3. Enjoy exploring the command line!
+
+```
+1. To open the command prompt on windows press "Windows + R". 
+2. In the run program window type "cmd" and press "Enter" to launch the command prompt
+
+    ![Windows Command Line](cmd.png)
+
+3. Enjoy exploring the command line!
 ```
 
 ## Code Words
@@ -217,7 +237,7 @@ At the command prompt, enter `vi newtextfile.txt`.
 
 ## Code Blocks
 
-Code blocks can be extremely useful when writing instructions especially in relation to computing and software. There are multiple ways to introduce code blocks with markdown.
+Code blocks can be extremely useful when writing instructions especially in relation to computing and software. Thankfully, there are multiple ways to use code blocks with Markdown as seen below.
 
 #### Code Block using Backticks
 
@@ -255,117 +275,62 @@ You may also use four indented spaces for a block of code.
 
 #### Code Block Inside of a List
 
-1. Open the file.
-2. Find the following code block on line 21:
+When writing instructions sometimes it is beneficial to have a code block in the middle of a list:
 
-        <html>
-          <head>
-            <title>This is the Title</title>
-          </head>
+1. Open the command line
+2. Run the following command on your Linux Ubuntu machine to install Go
 
-3. Update the title to match the name of your website.
+        sudo apt-get install golang 
 
+3. Enter your administrator password
+
+Syntax:
 ```
-1. Open the file.
-2. Find the following code block on line 21:
+1. Open the command line
+2. Run the following command on your Linux Ubuntu machine to install Go
 
-        <html>
-          <head>
-            <title>This is the Title</title>
-          </head>
+        sudo apt-get install golang 
 
-3. Update the title to match the name of your website.
+3. Enter your administrator password
 ```
-
-## Other Elements
-
-### Subscript
-
-H<sub>2</sub>O
-
-```
-H<sub>2</sub>O
-```
-
-### Superscript 
-
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
-```
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-```
-
-Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
-
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
-
 
 ## Images
 
-![Alt text](background-2.jpg)
+To insert an image in Markdown:
 
+![Text](background-2.jpg)
+
+Syntax: 
 ```
-![Alt text](background-2.jpg)
-```
-
-### Image inside of a list
-
-1. Open the file containing the Linux mascot.
-2. Marvel at its beauty.
-
-    ![Tux, the Linux mascot](/assets/images/tux.png)
-
-3. Close the file.
-
-```
-1. Open the file containing the Linux mascot.
-2. Marvel at its beauty.
-
-    ![Tux, the Linux mascot](/assets/images/tux.png)
-
-3. Close the file.
+![Text](background-2.jpg)
 ```
 
 ## Links
 
-[Link text](https://www.example.com)
+To turn text into a [link from text](https://www.markdownguide.org) use:
 
+Syntax:
 ```
-[Link text](https://www.example.com)
+[link from text](https://www.markdownguide.org)
 ```
 
 ## URLs and Email Addresses
 
-To quickly turn a URL or email address into a link, enclose it in angle brackets.
-
-<https://www.markdownguide.org>  
-<fake@example.com>
+To have a URL or an email address as a link you may enclose either in angle brackets. **Example:** Email me at <email@example.com> or visit <https://www.markdownguide.org> for further information.
 
 ```
 <https://www.markdownguide.org>
-<fake@example.com>
+<email@example.com>
 ```
 
 ## Horizontal rule
-
 ---
+The horizontal rule creates a line across the page. This line in use may be observed at both the start and end of this section. The horizontal rule may be acieved by using three or more asterisks, dashes or underscores on their own. Please note mixing and matching these symbols will not achieve the horizontal rule.
 
 ```
+***
 ---
+___
 ```
-
 ---
-
-## Math Rendering
-
-{{< math.inline >}}
-<p>
-Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)
-</p>
-{{</ math.inline >}}
-
-Block math:
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
-$$
-
+## Footnote Example
