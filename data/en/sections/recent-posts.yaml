@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Portfolio
+  name: Posts
   id: recent-posts
   enable: true
   weight: 7

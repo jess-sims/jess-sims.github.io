@@ -13,7 +13,7 @@ section:
 skills:
 - name: Kubernetes
   logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying and managing applications on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "Capable of deploying and managing applications on Kubernetes."
   url: "https://kubernetes.io/"
 
 # - name: Go Development
@@ -37,7 +37,7 @@ skills:
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Certified Linux Administrator. Confident configuring, maintaining and troubleshooting hardware and software via command line and writing simple bash/shell scripts."
+  summary: "Certified Linux Administrator. Confident configuring, maintaining and troubleshooting hardware and software via command line and writing bash scripts."
   url: https://www.linux.org/
 
 - name: Git
@@ -51,4 +51,4 @@ skills:
 
 - name: Markdown
   logo: /images/sections/skills/markdown.png
-  summary: "A lightweight markup language that you can use to add formatting elements to plaintext text documents"
+  summary: "Lightweight markup language of choice for formatting elements to plain text documents"
