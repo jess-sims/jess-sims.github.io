@@ -1,0 +1,111 @@
+<!doctype html><html><head><title>Using Markdown</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><link rel=stylesheet href=/css/bootstrap.min.css><link rel=stylesheet href=/css/layouts/main.css><link rel=stylesheet href=/css/navigators/navbar.css><link rel=stylesheet href=/css/plyr.css><link rel=stylesheet href=/css/flag-icon.min.css><link rel=stylesheet href=/google-fonts/Mulish/mulish.css><link rel=stylesheet href=/fontawesome/css/all.min.css><link rel=icon type=image/png href=/images/site/favicon_hub02d7508a1c89b2b7812eab204efeb9a_4223_42x0_resize_box_3.png><meta property="og:title" content="Using Markdown"><meta property="og:description" content="Using Markdown"><meta property="og:type" content="article"><meta property="og:url" content="https://jess-sims.github.io/posts/markdown/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2023-05-05T10:56:25+06:00"><meta property="article:modified_time" content="2023-05-05T10:56:25+06:00"><meta name=description content="Using Markdown"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css><link rel=stylesheet href=/css/layouts/single.css><link rel=stylesheet href=/css/navigators/sidebar.css><link rel=stylesheet href=/css/style.css></head><body data-spy=scroll data-target=#TableOfContents data-offset=80><div class="container-fluid bg-dimmed wrapper"><nav class="navbar navbar-expand-xl top-navbar final-navbar shadow"><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button onclick=toggleSidebar()>
+<span class=navbar-toggler-icon></span></button>
+<a class=navbar-brand href=/><img src=/images/site/logo-inverted-2_hu0d4f1a99036d25a5b8993f6ff4493648_80781_42x0_resize_box_3.png alt=Logo>
+J Sims</a>
+<button class="navbar-toggler navbar-light" id=toc-toggler type=button onclick=toggleTOC()>
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse lang-selector" id=top-nav-items><ul class="navbar-nav ml-auto"></ul></div></div><img src=/images/site/logo-inverted-2_hu0d4f1a99036d25a5b8993f6ff4493648_80781_42x0_resize_box_3.png class=d-none id=main-logo alt=Logo>
+<img src=/images/site/logo_hu5eef4566806b04dea53f1a64ade1640e_98948_42x0_resize_box_3.png class=d-none id=inverted-logo alt="Inverted Logo"></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><form class=mx-auto method=get action=/search><input type=text name=keyword placeholder=Search data-search id=search-box></form><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/posts data-filter=all>Posts</a></li><div class=subtree><li><a href=/posts/git/ title="Git and GitHub">Git and GitHub</a></li><li><a href=/posts/hugo/ title="How to create a Hugo Website">How to create a Hugo Website</a></li><li><a class=active href=/posts/markdown/ title="Using Markdown">Using Markdown</a></li></div></ul></div></div></div></section><section class=content-section id=content-section><div class=content><div class="container p-0 read-area"><div class="hero-area col-sm-12" id=hero-area style=background-image:url(/posts/markdown/hero.svg)></div><div class=page-content><div class="author-profile ml-auto align-self-lg-center"><img class=rounded-circle src=/images/author/jsims_hu1009c342177f7da012197b1e2a56fadf_143094_120x120_fit_q75_box.jpg alt="Author Image"><h5 class=author-name>Jessica Sims</h5><p>Friday, May 5, 2023</p></div><div class=title><h1>Using Markdown</h1></div><div class=taxonomy-terms><ul style=padding-left:0></ul></div><div class=post-content id=post-content><p>Markdown is a lightweight markup language used to make webpages easier on on the eye when displayed and simplier to read in plain text format. Markdown is widely popular due to its ease of use and its acceptance by many applications such as documentation systems, note-taking applications and messaging systems.</p><p>The below examples showcase some of the basic Markdown syntax elements, however, there are more features and Markdown flavours available depending on the Markdown implementation or specific application you&rsquo;re using. For further information on markdown and a more robust syntax list please review <a href=https://www.markdownguide.org/>https://www.markdownguide.org/</a></p><h1 id=markdown-syntax-rendering>Markdown Syntax Rendering</h1><h2 id=headings>Headings</h2><p>Headings and subheadings may be used to provide an outline of how the page is structured by breaking up web pages into sections and introducing the reader to a new topic. H1 is the largest heading available while H6 is the smallest:</p><pre tabindex=0><code># H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+</code></pre></br><p>All headings in this article are between H1 and H4 in size and the topics these are used for may be observed in the Table of Contents on the right hand side of this page.</p><h2 id=emphasis>Emphasis</h2><p>Emphasis is an important asset to assist readers in identifing important points in text. Basic Markdown allows for the use of italic, bold, italic and bold, or strikethrough.</p><h3 id=italic>Italic</h3><p>Italics are generally used for titles and names in writing such as books, movies and vessels or for a new word or concept. For use of <em>italics</em> in markdown see below:</p><pre tabindex=0><code>*Italic text*
+</code></pre><h3 id=bold>Bold</h3><p>To strongly emphasize keywords the use of <strong>bold</strong> can be very effective:</p><pre tabindex=0><code>**Bold text**
+</code></pre></br><p>To use both <em><strong>italic and bold</strong></em>, begin and end the word(s) with three asterisks:</p><pre tabindex=0><code>***Italic and bold***
+</code></pre><h3 id=strikethrough>Strikethrough</h3><p>The use of strikethrough can be a fun way to emphasize a change of idea or opinion. Such as; <del>You don&rsquo;t need to backup your storage.</del> Everyone needs to backup their storage:</p><pre tabindex=0><code>~~You don&#39;t need to backup your storage.~~ Everyone needs to backup their storage.
+</code></pre><h2 id=paragraph>Paragraph</h2><p>Markdown renders paragraphs and line breaks as you would normally write them, there is no need for any special characters. However, traditional html paragraph code and line breaks may be used if required although caution should be taken when used as not all applications will render this code in the the same manner.</p><h2 id=blockquotes>Blockquotes</h2><p>A blockquote represents content that is quoted from another source. Markdown has systax for blockquotes with and without citation. When using citation for your sources these will be contained within the footer.</p><h4 id=blockquote-without-citation>Blockquote without Citation</h4><p>A blockquote without citation may be achieved by beginning the line with the greater than symbol:</p><blockquote><p>It always seems impossible until it&rsquo;s done.
+<strong>Note:</strong> <em>Markdown syntax</em> may be used within a blockquote for example to achieve <em>italic</em> or <strong>bold</strong> emphasis.</p></blockquote><pre tabindex=0><code>&gt; It always seems impossible until it&#39;s done.
+&gt; **Note:** *Markdown syntax* may be used within a blockquote for example to achieve *italic* or **bold** emphasis.
+</code></pre><h4 id=blockquote-with-citation>Blockquote with Citation</h4><p>Creating a blockquote with citation is similar to the above with some added code:</p><blockquote><p>It always seems impossible until it&rsquo;s done.</p>— <cite>Nelson Mandela<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup></cite></p></blockquote><pre tabindex=0><code>&gt; It always seems impossible until it&#39;s done.&lt;/p&gt;
+&gt; — &lt;cite&gt;Nelson Mandela[^1]&lt;/cite&gt;
+</code></pre><h2 id=footnotes>Footnotes</h2><p>A footnote contains additional information printed at the bottom of the page for reference.</p><p><strong>Example:</strong> Here&rsquo;s a small footnote,<sup id=fnref1:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup> and here&rsquo;s a lengthier one containing a full paragraph with some code.<sup id=fnref:2><a href=#fn:2 class=footnote-ref role=doc-noteref>2</a></sup></p><pre tabindex=0><code>Here&#39;s a small footnote,[^1] and here&#39;s a lengthier one containing a full paragraph with some code.[^bignote]
+
+[^1]: Footnote one 
+
+[^bignote]: A footnote with paragraphs and code.
+
+    Indent your paragraphs to have them included in the footnote.
+
+    `{ add some code }`
+
+    See bottom of the page for the full output of footnotes
+</code></pre><h2 id=tables>Tables</h2><p>Markdown does not support tables as part of its core capabilities, however, many applications support a basic table such as:</p><table><thead><tr><th>Name</th><th>Age</th></tr></thead><tbody><tr><td>Rosa</td><td>22</td></tr><tr><td>Ben</td><td>34</td></tr></tbody></table><br><p>Creating a table can be as simple as the below formating:</p><pre tabindex=0><code>   | Name  | Age |
+   | ----- | --- |
+   | Rosa  | 22  |
+   | Ben   | 34  |  
+</code></pre><h2 id=list-types>List Types</h2><p>Lists provide the reader with a precise and ordered overview and thankfully Markdown supports multiple ways to create lists.</p><h4 id=ordered-list>Ordered List</h4><p>Example ordered list:</p><ol><li>Open the command line</li><li>Navigate to the root directory</li><li>Make a new directory</li></ol><pre tabindex=0><code>1. Open the command line
+2. Navigate to the root directory 
+3. Make a new directory 
+</code></pre><h4 id=unordered-list>Unordered List</h4><p>Example undordered list:</p><ul><li>Flour</li><li>Milk</li><li>Bread</li><li>Olive Oil</li></ul><pre tabindex=0><code>* Flour
+* Milk 
+* Bread 
+* Olive Oil
+</code></pre><h4 id=nested-list>Nested List</h4><p>Example nested list:</p><ul><li>Pantry<ul><li>Pasta</li><li>Tomato Sauce</li><li>Cereal</li></ul></li><li>Fish<ul><li>Cod</li><li>Hake</li></ul></li></ul><pre tabindex=0><code>* Pantry
+  * Pasta
+  * Tomato Sauce
+  * Cereal
+* Fish
+  * Cod
+  * Hake
+</code></pre><h4 id=task-lists>Task Lists</h4><p>Example task list:</p><ul><li><input checked disabled type=checkbox> Sunblock</li><li><input disabled type=checkbox> Towel</li><li><input disabled type=checkbox> Beachwear</li></ul><pre tabindex=0><code>- [x] Sunblock
+- [ ] Towel
+- [ ] Beachwear
+</code></pre><h4 id=image-inside-of-a-list>Image inside of a list</h4><p>When providing instructions it may be helpful to place an image inside of a list, for example:</p><ol><li><p>To open the command prompt on windows press &ldquo;Windows + R&rdquo;.</p></li><li><p>In the run program window type &ldquo;cmd&rdquo; and press &ldquo;Enter&rdquo; to launch the command prompt</p><p><img src=cmd.png alt="Windows Command Line"></p></li><li><p>Enjoy exploring the command line!</p></li></ol><p>Syntax:</p><pre tabindex=0><code>1. To open the command prompt on windows press &#34;Windows + R&#34;. 
+2. In the run program window type &#34;cmd&#34; and press &#34;Enter&#34; to launch the command prompt
+
+    ![Windows Command Line](cmd.png)
+
+3. Enjoy exploring the command line!
+</code></pre><h2 id=code-words>Code Words</h2><p>To denote a word or a phrase as code, enclose the word(s) in backticks. <strong>For example:</strong> At the command prompt, enter <code>vi newtextfile.txt</code>.</p><pre tabindex=0><code>At the command prompt, enter `vi newtextfile.txt`.
+</code></pre><h2 id=code-blocks>Code Blocks</h2><p>Code blocks can be extremely useful when writing instructions, especially in relation to computing and software. Thankfully, there are multiple ways to use code blocks with Markdown as seen below.</p><h4 id=code-block-using-backticks>Code Block using Backticks</h4><p>The easiest way to announce a code block is to use three backticks (`) at the beginning of the code and three backticks at the end of the code:</p><pre tabindex=0><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+  &lt;meta charset=&#34;UTF-8&#34;&gt;
+  &lt;title&gt;Example HTML5 Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Paragraph&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><h4 id=code-block-using-four-indented-spaces>Code Block using Four Indented Spaces</h4><p>You may also use four indented spaces to indicate a block of code:</p><pre tabindex=0><code>    &lt;!DOCTYPE html&gt;
+    &lt;html lang=&#34;en&#34;&gt;
+    &lt;head&gt;
+      &lt;meta charset=&#34;UTF-8&#34;&gt;
+      &lt;title&gt;Example HTML5 Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      &lt;p&gt;Paragraph&lt;/p&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+</code></pre><h4 id=code-block-inside-of-a-list>Code Block Inside of a List</h4><p>When conveying complex instructions it may be beneficial to have a code block in the middle of a list. For example:</p><ol><li><p>Open the command line</p></li><li><p>Run the following command on your Linux Ubuntu machine to install Go</p><pre><code> sudo apt-get install golang 
+</code></pre></li><li><p>Enter your administrator password</p></li></ol><p>Syntax:</p><pre tabindex=0><code>1. Open the command line
+2. Run the following command on your Linux Ubuntu machine to install Go
+
+        sudo apt-get install golang 
+
+3. Enter your administrator password
+</code></pre><h2 id=images>Images</h2><p>Using images can draw the reader into your article by providing visual appeal, illistrating examples and conveying important messages.</p><p>Syntax:</p><pre tabindex=0><code>![Text](commandline.jpg)
+</code></pre><h2 id=links>Links</h2><p>Providing links is an important way to direct the reader to sources or further reading materials. With Markdown you can turn text into a <a href=https://www.markdownguide.org>link from text</a> via:</p><pre tabindex=0><code>[link from text](https://www.markdownguide.org)
+</code></pre><h2 id=urls-and-email-addresses>URLs and Email Addresses</h2><p>To use a URL or an email address as a link you may enclose either in angle brackets. <strong>Example:</strong> Email me at <a href=mailto:email@example.com>email@example.com</a> or visit <a href=https://www.markdownguide.org>https://www.markdownguide.org</a> for further information:</p><pre tabindex=0><code>&lt;https://www.markdownguide.org&gt;
+&lt;email@example.com&gt;
+</code></pre><h2 id=horizontal-rule>Horizontal rule</h2><hr><p>The horizontal rule creates a line across the page which can be helpful to break up content. For example, the horizontal rule is in use and may be observed at both the start and end of this section. The horizontal rule may be acieved by using three or more asterisks, dashes or underscores on their own. Please note mixing and matching these symbols will not achieve the horizontal rule.</p><pre tabindex=0><code>***
+---
+___
+</code></pre><hr><h2 id=footnote-example>Footnote Example</h2><div class=footnotes role=doc-endnotes><hr><ol><li id=fn:1><p>Footnote one&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a>&#160;<a href=#fnref1:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li><li id=fn:2><p>A footnote with paragraphs and code.</p><p>Indent your paragraphs to have them included in the footnote.</p><p><code>{ add some code }</code></p><p>See bottom of the page for the full output of footnotes&#160;<a href=#fnref:2 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li></ol></div></div><div class="row pl-3 pr-3"><div class="col-md-6 share-buttons"><strong>Share on:</strong>
+<a class="btn btn-sm facebook-btn" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fjess-sims.github.io%2fposts%2fmarkdown%2f" target=_blank><i class="fab fa-facebook"></i></a>
+<a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=https%3a%2f%2fjess-sims.github.io%2fposts%2fmarkdown%2f&text=Using%20Markdown&via=J%20Sims" target=_blank><i class="fab fa-twitter"></i></a>
+<a class="btn btn-sm reddit-btn" href="https://reddit.com/submit?url=https%3a%2f%2fjess-sims.github.io%2fposts%2fmarkdown%2f&title=Using%20Markdown" target=_blank><i class="fab fa-reddit"></i></a>
+<a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fjess-sims.github.io%2fposts%2fmarkdown%2f&title=Using%20Markdown" target=_blank><i class="fab fa-linkedin"></i></a>
+<a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=Using%20Markdown https%3a%2f%2fjess-sims.github.io%2fposts%2fmarkdown%2f" target=_blank><i class="fab fa-whatsapp"></i></a>
+<a class="btn btn-sm email-btn" href="mailto:?subject=Using%20Markdown&body=https%3a%2f%2fjess-sims.github.io%2fposts%2fmarkdown%2f" target=_blank><i class="fas fa-envelope-open-text"></i></a></div></div><hr><div class="row next-prev-navigator"><div class="col-md-6 previous-article"><a href=/posts/hugo/ title="How to create a Hugo Website" class="btn btn-outline-info"><div><i class="fas fa-chevron-circle-left"></i> Prev</div><div class=next-prev-text>How to create a Hugo Website</div></a></div></div><hr></div></div></div><a id=scroll-to-top class=btn><i class="fas fa-chevron-circle-up"></i></a></section><section class=toc-section id=toc-section><div class=toc-holder><h5 class="text-center pl-3">Table of Contents</h5><hr><div class=toc><nav id=TableOfContents><ul><li><a href=#headings>Headings</a></li><li><a href=#emphasis>Emphasis</a><ul><li><a href=#italic>Italic</a></li><li><a href=#bold>Bold</a></li><li><a href=#strikethrough>Strikethrough</a></li></ul></li><li><a href=#paragraph>Paragraph</a></li><li><a href=#blockquotes>Blockquotes</a><ul><li><ul><li><a href=#blockquote-without-citation>Blockquote without Citation</a></li><li><a href=#blockquote-with-citation>Blockquote with Citation</a></li></ul></li></ul></li><li><a href=#footnotes>Footnotes</a></li><li><a href=#tables>Tables</a></li><li><a href=#list-types>List Types</a><ul><li><ul><li><a href=#ordered-list>Ordered List</a></li><li><a href=#unordered-list>Unordered List</a></li><li><a href=#nested-list>Nested List</a></li><li><a href=#task-lists>Task Lists</a></li><li><a href=#image-inside-of-a-list>Image inside of a list</a></li></ul></li></ul></li><li><a href=#code-words>Code Words</a></li><li><a href=#code-blocks>Code Blocks</a><ul><li><ul><li><a href=#code-block-using-backticks>Code Block using Backticks</a></li><li><a href=#code-block-using-four-indented-spaces>Code Block using Four Indented Spaces</a></li><li><a href=#code-block-inside-of-a-list>Code Block Inside of a List</a></li></ul></li></ul></li><li><a href=#images>Images</a></li><li><a href=#links>Links</a></li><li><a href=#urls-and-email-addresses>URLs and Email Addresses</a></li><li><a href=#horizontal-rule>Horizontal rule</a></li><li><a href=#footnote-example>Footnote Example</a></li></ul></nav></div></div></section></div><footer id=footer class="container-fluid text-center align-content-center footer pb-2"><div class="container pt-5"><div class="row text-left"><div class="col-md-4 col-sm-12"><h5>Navigation</h5><ul><li class=nav-item><a class=smooth-scroll href=https://jess-sims.github.io#about>About</a></li><li class=nav-item><a class=smooth-scroll href=https://jess-sims.github.io#skills>Skills</a></li><li class=nav-item><a class=smooth-scroll href=https://jess-sims.github.io#experiences>Experiences</a></li><li class=nav-item><a class=smooth-scroll href=https://jess-sims.github.io#education>Education</a></li><li class=nav-item><a class=smooth-scroll href=https://jess-sims.github.io#recent-posts>Posts</a></li><li class=nav-item><a class=smooth-scroll href=https://jess-sims.github.io#accomplishments>Accomplishments</a></li></ul></div><div class="col-md-4 col-sm-12"><h5>Contact me:</h5><ul><li><a href=https://github.com/jess-sims target=_blank rel=noopener><span><i class="fab fa-github"></i></span> <span>jess-sims</span></a></li><li><a href=https://www.linkedin.com/in/jess-sims target=_blank rel=noopener><span><i class="fab fa-linkedin"></i></span> <span>Jessica Sims</span></a></li></ul></div></div></div><hr><div class=container><div class="row text-left"><div class=col-md-4><a id=theme href=https://github.com/hugo-toha/toha target=_blank rel=noopener><img src=/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png alt="Toha Theme Logo">
+Toha</a></div><div class="col-md-4 text-center">© 2024 Copyright.</div><div class="col-md-4 text-right"><a id=hugo href=https://gohugo.io/ target=_blank rel=noopener>Powered by
+<img src=/images/hugo-logo.svg alt="Hugo Logo" height=18></a></div></div></div></footer><script type=text/javascript src=/js/jquery-3.4.1.min.js></script>
+<script type=text/javascript src=/js/popper.min.js></script>
+<script type=text/javascript src=/js/bootstrap.min.js></script>
+<script type=text/javascript src=/js/navbar.js></script>
+<script type=text/javascript src=/js/plyr.js></script>
+<script type=text/javascript src=/js/main.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js></script>
+<script src=/js/single.js></script>
+<script>hljs.initHighlightingOnLoad()</script></body></html>
