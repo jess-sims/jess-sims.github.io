@@ -66,9 +66,14 @@ badges:
 #  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
 
 - type: certification
+  name: CKA - Certified Kubernetes Administrator
+  url: "https://www.credly.com/badges/ea86daed-5d6c-4b3b-8a50-d6ae38a4260b/public_url"
+  badge: "https://images.credly.com/size/680x680/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png"
+
+- type: certification
   name: KCNA - Kubernetes and Cloud Native Associate
   url: "https://www.credly.com/badges/b6354926-7f2a-4869-be6f-15ef7b4f1caf/public_url"
-  badge: "https://images.credly.com/size/680x680/images/f28f1d88-428a-47f6-95b5-7da1dd6c1000/KCNA_badge.png"
+  badge: "https://images.credly.com/size/6800x680/images/f28f1d88-428a-47f6-95b5-7da1dd6c1000/KCNA_badge.png"
 
 - type: certification
   name: LFCS - Linux Foundation Certified Systems Administrator
@@ -85,10 +90,10 @@ badges:
   url: "https://www.credly.com/badges/e834050d-f8a4-4bcc-b60d-9d8f95a536ad/public_url"
   badge: "https://images.credly.com/size/680x680/images/1319277e-2eac-47be-abaa-655c99686905/vmware_Specialist_vSan2019.png"
 
-- type: certification
-  name: VMware Certified Professional – Data Center Virtualization
-  url: "https://www.credly.com/badges/98e28e48-f9dc-40ae-bf82-e5c0677b7446/public_url"
-  badge: "https://images.credly.com/size/680x680/images/a5221adc-6edc-4145-a27c-8ec03466d8db/vmware_cert_VCPDCV2019.png"
+#- type: certification
+#  name: VMware Certified Professional – Data Center Virtualization
+#  url: "https://www.credly.com/badges/98e28e48-f9dc-40ae-bf82-e5c0677b7446/public_url"
+#  badge: "https://images.credly.com/size/680x680/images/a5221adc-6edc-4145-a27c-8ec03466d8db/vmware_cert_VCPDCV2019.png"
 
 #- type: certification
 #  name: VMware vSphere 6.5 Foundations

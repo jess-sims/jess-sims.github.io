@@ -11,13 +11,21 @@ section:
 
 # Your accomplishments
 accomplishments:
-- name: KCNA - Kubernetes and Cloud Native Associate
+- name: CKA - Certified Kubernetes Administrator
   timeline: "2023"
   organization:
     name: The Linux Foundation
     url: https://training.linuxfoundation.org/
-  courseOverview: Earners of this designation demonstrated a basic knowledge of Kubernetes and cloud-native technologies, including how to deploy an application using basic kubectl commands, the architecture of Kubernetes (containers, pods, nodes, clusters), understanding the cloud-native landscape and projects (storage, networking, GitOps, service mesh), and understanding the principles of cloud-native security.
-  certificateURL: "https://www.credly.com/badges/b6354926-7f2a-4869-be6f-15ef7b4f1caf/public_url"
+  courseOverview: Earners of this designation demonstrated the skills, knowledge and competencies to perform the responsibilities of a Kubernetes Administrator. Earners demonstrated proficiency in Application Lifecycle Management, Installation, Configuration & Validation, Core Concepts, Networking, Scheduling, Security, Cluster Maintenance, Logging / Monitoring, Storage, and Troubleshooting
+  certificateURL: "https://www.credly.com/badges/ea86daed-5d6c-4b3b-8a50-d6ae38a4260b/public_url"
+
+# - name: KCNA - Kubernetes and Cloud Native Associate
+#   timeline: "2023"
+#   organization:
+#     name: The Linux Foundation
+#     url: https://training.linuxfoundation.org/
+#   courseOverview: Earners of this designation demonstrated a basic knowledge of Kubernetes and cloud-native technologies, including how to deploy an application using basic kubectl commands, the architecture of Kubernetes (containers, pods, nodes, clusters), understanding the cloud-native landscape and projects (storage, networking, GitOps, service mesh), and understanding the principles of cloud-native security.
+#   certificateURL: "https://www.credly.com/badges/b6354926-7f2a-4869-be6f-15ef7b4f1caf/public_url"
 
 - name: LFCS - Linux Foundation Certified Systems Administrator
   timeline: "2023"
